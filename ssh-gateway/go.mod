@@ -3,8 +3,9 @@ module github.com/parssh/ssh-gateway
 go 1.21
 
 require (
+	github.com/gin-gonic/gin v1.9.1
 	github.com/gorilla/websocket v1.5.0
-	golang.org/x/crypto v0.14.0
+	golang.org/x/crypto v0.17.0
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/google/uuid v1.3.0
 	github.com/rs/zerolog v1.30.0
